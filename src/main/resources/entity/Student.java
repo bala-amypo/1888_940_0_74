@@ -1,15 +1,13 @@
-package com.example.aiml.entity;
+package com.example.demo.entity;
 public class Student {
     private int id ;
     private String name;
     private String email;
     public void setId(int id){
         this.id=id;
-
     }
     public int getId() {
         return id;
-        
     }
     public String getName() {
         return name;
