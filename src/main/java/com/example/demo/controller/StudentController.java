@@ -19,7 +19,4 @@ public class StudentController {
     public ResponseEntity<Student> postdata(@Valid @RequestBody Student student){
         return new  ResponseEntity<>(studentService.saveStudent(student),HttpStatus.CREATED);
     }
-    
-    
-
 }
