@@ -5,5 +5,5 @@ import com.example.demo.entity.Student;
 public interface StudentService {
 
     Student saveStudent(Student student);
-    Student getStudentbyId(long id);
+    Student getStudentById(long id);
 }
