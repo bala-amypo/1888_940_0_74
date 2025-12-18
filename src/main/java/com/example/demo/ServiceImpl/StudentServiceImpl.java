@@ -16,8 +16,9 @@ public class StudentServiceImpl implements StudentService {
     public Student saveStudent(Student student){
         return studentRepository.save(student);
     }
-    public Student getStudentById(long id){
-        return studentRepository.findById(Id)
+    public Student getStudentById(Long id){
+        return studentRepository.findById(id)
         .orElseThrow(()-> new ResourceNotFoundException("Student not found"));
     }
+
 }
